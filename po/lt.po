@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cluster 2.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-30 22:00+0100\n"
+"POT-Creation-Date: 2024-09-15 15:11+0200\n"
 "PO-Revision-Date: 2021-02-12 11:04+0200\n"
 "Last-Translator: Gabrielė Stupurienė <gabriele.stupuriene@mif.vu.lt>\n"
 "Language-Team: none\n"
@@ -16,44 +16,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n"
-"%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
 
 #: clara.c:101
 #, c-format
 msgid "C level clara(): random k=%d > n **\n"
 msgstr "C lygio clara(): atsitiktinis k=%d > n **\n"
 
-#: clara.c:312
-#, c-format
-msgid ""
-"clara()'s C level dysta2(nsam=%d, p=%d, nbest=%d, n=%d) gave 'toomany_NA'"
-msgstr ""
-"clara() C lygio dysta2(nsam=%d, p=%d, nbest=%d, n=%d) davė 'toomany_NA'"
+#: clara.c:316
+#, fuzzy, c-format
+msgid "clara()'s C level dysta2(nsam=%d, p=%d, n=%d) gave 'toomany_NA'"
+msgstr "clara() C lygio dysta2(nsam=%d, p=%d, nbest=%d, n=%d) davė 'toomany_NA'"
 
-#: clara.c:348 clara.c:353
+#: clara.c:357 clara.c:362
 #, c-format
 msgid "C level dysta2(): nsel[%s= %d] = %d is outside 0..n, n=%d"
 msgstr "C lygio dysta2(): nsel[%s= %d] = %d yra už 0..n, n=%d"
 
-#: pam.c:161
+#: pam.c:78
 msgid "Invalid 'medoids'"
 msgstr "Neleistinas 'medoids'"
 
-#: pam.c:1011
+#: pam.c:928
 #, c-format
 msgid "pam(): Bug in C level cstat(), k=%d: ntt=0"
 msgstr "pam(): Klaida C lygio cstat(), k = %d: ntt = 0"
 
-#: twins.c:153
+#: twins.c:154
 #, c-format
-msgid ""
-"agnes(method=%d, par.method=*) lead to invalid merge; step %d, D(.,.)=%g"
-msgstr ""
-"agnes(method=%d, par.method=*) sukelia neleistiną suliejimą; žingsnis %d, "
-"D(.,.) =%g"
+msgid "agnes(method=%d, par.method=*) lead to invalid merge; step %d, D(.,.)=%g"
+msgstr "agnes(method=%d, par.method=*) sukelia neleistiną suliejimą; žingsnis %d, D(.,.) =%g"
 
-#: twins.c:260
+#: twins.c:261
 #, c-format
 msgid "invalid method (code %d)"
 msgstr "neleistinas metodas (kodas %d)"

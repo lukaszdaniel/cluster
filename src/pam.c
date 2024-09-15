@@ -15,6 +15,7 @@
 
 #include "cluster.h"
 #include "ind_2.h"
+#include "localization.h"
 
 // carries out a clustering using the k-medoid approach
 

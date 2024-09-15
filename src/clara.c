@@ -18,6 +18,7 @@
 
 #include "cluster.h"
 #include "ind_2.h"
+#include "localization.h"
 
 void cl_clara(int *n,  /* = number of objects */
 	      int *jpp,/* = number of variables */

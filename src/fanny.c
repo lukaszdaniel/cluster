@@ -9,6 +9,7 @@
 #include <R_ext/Print.h>/* for diagnostics */
 
 #include "cluster.h"
+#include "localization.h"
 /* dysta3() declared in cluster.h */
 
 static void

@@ -12,6 +12,7 @@
 
 #include "cluster.h"
 #include "ind_2.h"
+#include "localization.h"
 
 // the auxiliary routines
 static void agnes(int nn, int *kwan, int *ner, double *ban, double dys[],
