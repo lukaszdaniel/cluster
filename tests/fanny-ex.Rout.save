@@ -1077,7 +1077,7 @@ Converged after 44 iterations,  obj =             2665.982
 fanny()'s caddy(*, k = 4):
  -> k_true (crisp) = 2 < k (= 4) !!
 Warning message:
-In fanny(chorSub, k = 4, trace.lev = 1) :
+In 'fanny(chorSub, k = 4, trace.lev = 1)':
   the memberships are all very close to 1/k. Maybe decrease 'memb.exp' ?
 > ## IGNORE_RDIFF_BEGIN
 > f4.20$coef
@@ -1087,12 +1087,12 @@ In fanny(chorSub, k = 4, trace.lev = 1) :
 > stopifnot(all.equal(f4.20$coef, c(dunn_coeff = 0.25, normalized = 3.330669e-15)))
 > f4.18  <- fanny(chorSub, k = 4,   memb.exp = 1.8) # same problem
 Warning message:
-In fanny(chorSub, k = 4, memb.exp = 1.8) :
+In 'fanny(chorSub, k = 4, memb.exp = 1.8)':
   the memberships are all very close to 1/k. Maybe decrease 'memb.exp' ?
 > f4.18. <- fanny(chorSub, k = 4,   memb.exp = 1.8,
 +                 iniMem.p = f4.20$membership) # very quick convergence
 Warning message:
-In fanny(chorSub, k = 4, memb.exp = 1.8, iniMem.p = f4.20$membership) :
+In 'fanny(chorSub, k = 4, memb.exp = 1.8, iniMem.p = f4.20$membership)':
   the memberships are all very close to 1/k. Maybe decrease 'memb.exp' ?
 > stopifnot(all.equal(f4.18[not.conv], f4.18.[not.conv], tol = 5e-7))
 > 

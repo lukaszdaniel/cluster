@@ -1550,10 +1550,10 @@ Available components:
 [1] "data"      "hasNA"     "order"     "variable"  "step"      "order.lab"
 [7] "call"     
 seed =  4 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  5 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  6 
 Loop npass = 1: (ka,kb) = (1,20)
@@ -1745,10 +1745,10 @@ Available components:
 [1] "data"      "hasNA"     "order"     "variable"  "step"      "order.lab"
 [7] "call"     
 seed =  8 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  9 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  10 
 Loop npass = 1: (ka,kb) = (1,20)
@@ -1846,7 +1846,7 @@ Available components:
 [1] "data"      "hasNA"     "order"     "variable"  "step"      "order.lab"
 [7] "call"     
 seed =  11 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  12 
 Loop npass = 1: (ka,kb) = (1,20)
@@ -2312,7 +2312,7 @@ Available components:
 [1] "data"      "hasNA"     "order"     "variable"  "step"      "order.lab"
 [7] "call"     
 seed =  17 
-Error in mona(ani.N2, trace = TRUE) : 
+Error in 'mona(ani.N2, trace = TRUE)': 
   No clustering performed, all variables have at least one missing value.
 seed =  18 
 Loop npass = 1: (ka,kb) = (1,20)
@@ -2604,19 +2604,19 @@ Available components:
 > ani.idNA <- within(animals, end[!is.na(end)] <- 1 )
 > ## use tools::assertError() {once you don't use *.Rout.save anymore}
 > try( mona(ani.NA)   )
-Error in mona(ani.NA) : 
+Error in 'mona(ani.NA)': 
   No clustering performed, an object was found with all values missing.
 > try( mona(aniNA)    )
-Error in mona(aniNA) : 
+Error in 'mona(aniNA)': 
   No clustering performed, found variable with more than half values missing.
 > try( mona(aniN2)    )
-Error in mona(aniN2) : 
+Error in 'mona(aniN2)': 
   No clustering performed, all variables have at least one missing value.
 > try( mona(ani.non2) )
-Error in mona(ani.non2) : 
+Error in 'mona(ani.non2)': 
   All variables must be binary (e.g., a factor with 2 levels, both present).
 > try( mona(ani.idNA) )
-Error in mona(ani.idNA) : 
+Error in 'mona(ani.idNA)': 
   All variables must be binary (e.g., a factor with 2 levels, both present).
 > 
 > if(require(MASS, lib.loc=.Library)) withAutoprint({
@@ -2793,7 +2793,7 @@ Available components:
 > try(
 + mona(cbind(1:0), trace=2)
 + ) -> et ## error: need p >= 2
-Error in mona(cbind(1:0), trace = 2) : 
+Error in 'mona(cbind(1:0), trace = 2)': 
   mona() needs at least p >= 2 variables (in current implementation)
 > stopifnot(inherits(et, "try-error"),
 +           grepl("needs at least p >= 2", et))

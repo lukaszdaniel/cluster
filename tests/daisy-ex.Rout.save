@@ -68,7 +68,7 @@ C 0 0
 Metric :  euclidean 
 Number of objects : 3
 Warning message:
-In daisy(d32, stand = TRUE) :
+In 'daisy(d32, stand = TRUE)':
   'x' has constant columns 1, 2; these are standardized to 0
 > daisy(d32, type = list(ordratio="zwei"))
 Dissimilarities :
@@ -119,7 +119,7 @@ Dissimilarities :
 Metric :  euclidean 
 Number of objects : 11
 Warning message:
-In daisy(d5) : binary variable(s) 1, 2, 3, 4, 5 treated as interval scaled
+In 'daisy(d5)': binary variable(s) 1, 2, 3, 4, 5 treated as interval scaled
 > (d1 <- daisy(d5, type = list(asymm = 1:5)))
 Dissimilarities :
            1         2         3         4         5         6         7
@@ -202,7 +202,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = I, I, A, A, A 
 Number of objects : 11
 Warning message:
-In daisy(d5, type = list(asymm = 3:5)) :
+In 'daisy(d5, type = list(asymm = 3:5))':
   binary variable(s) 1, 2 treated as interval scaled
 > stopifnot(identical(c(d2), c(d2.)))
 > (dS <- daisy(d5, stand = TRUE))# gave error in some versions
@@ -233,7 +233,7 @@ Dissimilarities :
 Metric :  euclidean 
 Number of objects : 11
 Warning message:
-In daisy(d5, stand = TRUE) :
+In 'daisy(d5, stand = TRUE)':
   binary variable(s) 1, 2, 3, 4, 5 treated as interval scaled
 > stopifnot(all.equal(as.vector(summary(c(dS), digits=9)),
 +                     c(0, 2.6142638, 3.4938562, 3.2933687, 4.0591077, 5.5580177),
@@ -268,7 +268,7 @@ Dissimilarities :
 Metric :  euclidean 
 Number of objects : 11
 Warning message:
-In daisy(d5) : binary variable(s) 1, 2, 3, 5 treated as interval scaled
+In 'daisy(d5)': binary variable(s) 1, 2, 3, 5 treated as interval scaled
 > (d1 <- daisy(d5, type = list(asymm = 1:5)))# 2 NAs
 Dissimilarities :
            1         2         3         4         5         6         7
@@ -297,7 +297,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = A, A, A, A, A 
 Number of objects : 11
 Warning message:
-In daisy(d5, type = list(asymm = 1:5)) :
+In 'daisy(d5, type = list(asymm = 1:5))':
   at least one binary variable has not 2 different levels.
 > (d2 <- daisy(d5, type = list(symm = 1:2, asymm= 3:5)))
 Dissimilarities :
@@ -327,7 +327,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = S, S, A, A, A 
 Number of objects : 11
 Warning message:
-In daisy(d5, type = list(symm = 1:2, asymm = 3:5)) :
+In 'daisy(d5, type = list(symm = 1:2, asymm = 3:5))':
   at least one binary variable has not 2 different levels.
 > (d2.<- daisy(d5, type = list(     asymm= 3:5)))
 Dissimilarities :
@@ -357,9 +357,9 @@ Dissimilarities :
 Metric :  mixed ;  Types = I, I, A, A, A 
 Number of objects : 11
 Warning messages:
-1: In daisy(d5, type = list(asymm = 3:5)) :
+1: In 'daisy(d5, type = list(asymm = 3:5))':
   at least one binary variable has not 2 different levels.
-2: In daisy(d5, type = list(asymm = 3:5)) :
+2: In 'daisy(d5, type = list(asymm = 3:5))':
   binary variable(s) 1, 2 treated as interval scaled
 > ## better leave away the constant variable: it has no effect:
 > stopifnot(identical(c(d1), c(daisy(d5[,-4], type = list(asymm = 1:4)))))
@@ -376,7 +376,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = A, S 
 Number of objects : 2
 Warning message:
-In daisy(x, type = list(symm = "B", asymm = "A")) :
+In 'daisy(x, type = list(symm = "B", asymm = "A"))':
   at least one binary variable has not 2 different levels.
 > daisy(x, type = list(symm= "B"))# 0 too
 Dissimilarities :
@@ -386,7 +386,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = I, S 
 Number of objects : 2
 Warning message:
-In daisy(x, type = list(symm = "B")) :
+In 'daisy(x, type = list(symm = "B"))':
   at least one binary variable has not 2 different levels.
 > 
 > x2 <- x; x2[2,2] <- 1
@@ -405,7 +405,7 @@ Dissimilarities :
 Metric :  mixed ;  Types = A, S 
 Number of objects : 2
 Warning message:
-In daisy(x2, type = list(symm = "B", asymm = "A")) :
+In 'daisy(x2, type = list(symm = "B", asymm = "A"))':
   at least one binary variable has not 2 different levels.
 > 
 > x3 <- x; x3[] <- diag(2)
@@ -773,12 +773,12 @@ Number of objects : 18
 > data(animals)
 > d0 <- daisy(animals)
 Warning message:
-In daisy(animals) :
+In 'daisy(animals)':
   binary variable(s) 1, 2, 3, 4, 5, 6 treated as interval scaled
 > 
 > d1 <- daisy(animals - 1, type=list(asymm=c(2,4)))
 Warning message:
-In daisy(animals - 1, type = list(asymm = c(2, 4))) :
+In 'daisy(animals - 1, type = list(asymm = c(2, 4)))':
   binary variable(s) 1, 3, 5, 6 treated as interval scaled
 > (d2 <- daisy(animals - 1, type=list(symm = c(1,3,5,6), asymm=c(2,4))))
 Dissimilarities :
@@ -849,7 +849,7 @@ Number of objects : 20
 > 
 > d3 <- daisy(2 - animals, type=list(asymm=c(2,4)))
 Warning message:
-In daisy(2 - animals, type = list(asymm = c(2, 4))) :
+In 'daisy(2 - animals, type = list(asymm = c(2, 4)))':
   binary variable(s) 1, 3, 5, 6 treated as interval scaled
 > (d4 <- daisy(2 - animals, type=list(symm = c(1,3,5,6), asymm=c(2,4))))
 Dissimilarities :
