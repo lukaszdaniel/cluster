@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cluster 1.15.2\n"
-"POT-Creation-Date: 2024-09-15 15:11\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -69,7 +69,6 @@ msgid "'diss' must be one of {TRUE, FALSE}"
 msgstr ""
 
 #. R/silhouette.R: stop("'dmatrix' is not a dissimilarity matrix compatible to 'x'")
-#. R/silhouette.R: stop("'dmatrix' is not a dissimilarity matrix compatible to 'x'")
 #: R/silhouette.R:0
 msgid "'dmatrix' is not a dissimilarity matrix compatible to 'x'"
 msgstr "'dmatrix'는 'x'에 부합하는 (또는 사용할 수 있는) 비유사성 행렬(dissimilarity matrix)이 아닙니다."
@@ -110,12 +109,10 @@ msgid "'memb.exp' must be a finite number > 1"
 msgstr "'memb.exp'는 반드시 1보다 큰 유한한(finite) 숫자이어야 합니다."
 
 #. R/internal.R: stop("'n' must be >= 2")
-#. R/internal.R: stop("'n' must be >= 2")
 #: R/internal.R:0
 msgid "'n' must be >= 2"
 msgstr "'n'는 반드시 2보다 크거나 같아야 합니다."
 
-#. R/agnes.q: stop("'par.method' must be of length 1, 3, or 4")
 #. R/agnes.q: stop("'par.method' must be of length 1, 3, or 4")
 #: R/agnes.q:0
 msgid "'par.method' must be of length 1, 3, or 4"
@@ -165,7 +162,6 @@ msgstr "'x'는 \"dissimilarity\"이라는 클래스가 아니거나 클래스 \"
 msgid "'x' must be numeric  n x p matrix"
 msgstr "'x'는 반드시 크기가 n x p인 수치형 행렬이어야 합니다."
 
-#. R/silhouette.R: stop("'x' must only have integer codes")
 #. R/silhouette.R: stop("'x' must only have integer codes")
 #: R/silhouette.R:0
 msgid "'x' must only have integer codes"
@@ -252,7 +248,6 @@ msgstr "'x'는 NA를 가질 수 없습니다."
 msgid "NA-values in the dissimilarity matrix not allowed."
 msgstr "NA의 값은 비유사성 행렬(dissimilarity matrix)에 사용될 수 없습니다."
 
-#. R/silhouette.R: stop("Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'")
 #. R/silhouette.R: stop("Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'")
 #: R/silhouette.R:0
 msgid "Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'"
@@ -350,7 +345,6 @@ msgid "binary variable(s) %s treated as interval scaled"
 msgstr "이항변수(binary variable) %s는 구간척도(interval scale)로서 다루어집니다. "
 
 #. R/silhouette.R: stop("clustering 'x' and dissimilarity 'dist' are incompatible")
-#. R/silhouette.R: stop("clustering 'x' and dissimilarity 'dist' are incompatible")
 #: R/silhouette.R:0
 msgid "clustering 'x' and dissimilarity 'dist' are incompatible"
 msgstr "'x'와 'dist'가 서로 부합하지 않습니다."
@@ -375,7 +369,6 @@ msgstr ".C(cl_pam, *)으로부터 에러가 발생했습니다:  medID가 올바
 msgid "full silhouette is only available for results of 'clara(*, keep.data = TRUE)'"
 msgstr "full silhouette는 'clara(*, keep.data = TRUE)'의 결과만에 오로지 사용할 수 있습니다."
 
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
 #. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
 #: R/pam.q:0
 msgid "have %d observations, but not more than %d are allowed"
@@ -438,7 +431,6 @@ msgstr "silhouette 구조가 올바르지 않습니다."
 msgid "invalid type %s for column numbers %s"
 msgstr "행번호 %2$s에 잘못된 유형(type) %1$s이 주어졌습니다."
 
-#. R/mona.q: stop("mona() needs at least p >= 2 variables (in current implementation)")
 #. R/mona.q: stop("mona() needs at least p >= 2 variables (in current implementation)")
 #: R/mona.q:0
 msgid "mona() needs at least p >= 2 variables (in current implementation)"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4.1.0 cluster 2.1.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-09-15 15:11\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: 2021-05-04 15:37+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: R Core Team <r-core@r-project.org\n"
@@ -61,7 +61,6 @@ msgid "'diss' must be one of {TRUE, FALSE}"
 msgstr ""
 
 #. R/silhouette.R: stop("'dmatrix' is not a dissimilarity matrix compatible to 'x'")
-#. R/silhouette.R: stop("'dmatrix' is not a dissimilarity matrix compatible to 'x'")
 #: R/silhouette.R:0
 msgid "'dmatrix' is not a dissimilarity matrix compatible to 'x'"
 msgstr "'dmatrix' ist keine zu 'x' kompatible Unähnlichkeitsmatrix "
@@ -102,12 +101,10 @@ msgid "'memb.exp' must be a finite number > 1"
 msgstr "'memb.exp' muss endliche Zahl > 1 sein"
 
 #. R/internal.R: stop("'n' must be >= 2")
-#. R/internal.R: stop("'n' must be >= 2")
 #: R/internal.R:0
 msgid "'n' must be >= 2"
 msgstr "'n' muss >= 2 sein"
 
-#. R/agnes.q: stop("'par.method' must be of length 1, 3, or 4")
 #. R/agnes.q: stop("'par.method' must be of length 1, 3, or 4")
 #: R/agnes.q:0
 msgid "'par.method' must be of length 1, 3, or 4"
@@ -157,7 +154,6 @@ msgstr "'x' ist nicht und kann auch nicht umgewandelt werden in Klasse \"dissimi
 msgid "'x' must be numeric  n x p matrix"
 msgstr "'x' muss numerische n x p - Matrix sein"
 
-#. R/silhouette.R: stop("'x' must only have integer codes")
 #. R/silhouette.R: stop("'x' must only have integer codes")
 #: R/silhouette.R:0
 msgid "'x' must only have integer codes"
@@ -242,7 +238,6 @@ msgstr "NAs nicht erlaubt in dist-ähnlichem 'x'."
 msgid "NA-values in the dissimilarity matrix not allowed."
 msgstr "NAs in der Unähnlichkeitsmatrix nicht zulässig."
 
-#. R/silhouette.R: stop("Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'")
 #. R/silhouette.R: stop("Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'")
 #: R/silhouette.R:0
 msgid "Need either a dissimilarity 'dist' or diss.matrix 'dmatrix'"
@@ -340,7 +335,6 @@ msgid "binary variable(s) %s treated as interval scaled"
 msgstr "Binärvariable %s als intervallskaliert behandelt"
 
 #. R/silhouette.R: stop("clustering 'x' and dissimilarity 'dist' are incompatible")
-#. R/silhouette.R: stop("clustering 'x' and dissimilarity 'dist' are incompatible")
 #: R/silhouette.R:0
 msgid "clustering 'x' and dissimilarity 'dist' are incompatible"
 msgstr "Clusterung 'x' und Unähnlichkeitsmatrix 'dist' sind inkompatibel"
@@ -365,7 +359,6 @@ msgstr "Fehler aus .C(cl_pam, *): unzulässige medID's"
 msgid "full silhouette is only available for results of 'clara(*, keep.data = TRUE)'"
 msgstr "die volle Silhoutte ist nur verfügbar für Resultate von 'clara(*, keep.data=TRUE)'"
 
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
 #. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
 #: R/pam.q:0
 msgid "have %d observations, but not more than %d are allowed"
@@ -426,7 +419,6 @@ msgstr "unzulässige Silhouttenstruktur"
 msgid "invalid type %s for column numbers %s"
 msgstr "ungültiger Typ %s für Spaltennummern %s"
 
-#. R/mona.q: stop("mona() needs at least p >= 2 variables (in current implementation)")
 #. R/mona.q: stop("mona() needs at least p >= 2 variables (in current implementation)")
 #: R/mona.q:0
 msgid "mona() needs at least p >= 2 variables (in current implementation)"
