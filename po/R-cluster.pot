@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cluster 2.1.6\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-22 12:03\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +41,9 @@ msgstr ""
 
 
 #: R/ellipsoidhull.R: 0
-#. R/ellipsoidhull.R: stop("'A' must be p x p  cov-matrix defining an ellipsoid")
+#. R/ellipsoidhull.R: stop("'A' must be p x p cov-matrix defining an ellipsoid")
 
-msgid "'A' must be p x p  cov-matrix defining an ellipsoid"
+msgid "'A' must be p x p cov-matrix defining an ellipsoid"
 msgstr ""
 
 
@@ -201,9 +201,9 @@ msgstr ""
 
 
 #: R/ellipsoidhull.R: 0
-#. R/ellipsoidhull.R: stop("'x' must be numeric  n x p matrix")
+#. R/ellipsoidhull.R: stop("'x' must be numeric n x p matrix")
 
-msgid "'x' must be numeric  n x p matrix"
+msgid "'x' must be numeric n x p matrix"
 msgstr ""
 
 
@@ -486,13 +486,6 @@ msgid "full silhouette is only available for results of 'clara(*, keep.data = TR
 msgstr ""
 
 
-#: R/pam.q: 0
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
-
-msgid "have %d observations, but not more than %d are allowed"
-msgstr ""
-
-
 #: R/clusGapGen.R: 0
 #. R/clusGapGen.R: stop("index has to be a function or a list of function")
 
@@ -718,6 +711,15 @@ msgstr[1]    ""
 
 msgid        "Observation %s has *only* NAs --> omit it for clustering"
 msgid_plural "Observations %s have *only* NAs --> omit them for clustering!"
+msgstr[0]    ""
+msgstr[1]    ""
+
+
+#: R/pam.q: 0
+#. R/pam.q: ngettext(n, "have %d observation, but not more than %d are allowed",     "have %d observations, but not more than %d are allowed")
+
+msgid        "have %d observation, but not more than %d are allowed"
+msgid_plural "have %d observations, but not more than %d are allowed"
 msgstr[0]    ""
 msgstr[1]    ""
 

@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cluster 1.15.2\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-22 12:03\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -43,9 +43,10 @@ msgstr "%s는 반드시 1:ncol(x)내에 있어야 합니다."
 msgid "%s must contain column names or numbers"
 msgstr "%s는 반드시 열 이름 또는 번호를 포함해야 합니다."
 
-#. R/ellipsoidhull.R: stop("'A' must be p x p  cov-matrix defining an ellipsoid")
+#. R/ellipsoidhull.R: stop("'A' must be p x p cov-matrix defining an ellipsoid")
 #: R/ellipsoidhull.R:0
-msgid "'A' must be p x p  cov-matrix defining an ellipsoid"
+#, fuzzy
+msgid "'A' must be p x p cov-matrix defining an ellipsoid"
 msgstr "'A'는 반드시 타원(ellipsoid)를 정의하는 크기가 p x p인 공분산행렬(cov-matrix)이어야 합니다."
 
 #. R/clusGap.R: stop("'B' has to be a positive integer")
@@ -157,9 +158,10 @@ msgstr "x는 수치형 데이터 프레임 또는 행렬이 아닙니다."
 msgid "'x' is not and cannot be converted to class \"dissimilarity\""
 msgstr "'x'는 \"dissimilarity\"이라는 클래스가 아니거나 클래스 \"dissimilarity\"로 전환할 수 없습니다."
 
-#. R/ellipsoidhull.R: stop("'x' must be numeric  n x p matrix")
+#. R/ellipsoidhull.R: stop("'x' must be numeric n x p matrix")
 #: R/ellipsoidhull.R:0
-msgid "'x' must be numeric  n x p matrix"
+#, fuzzy
+msgid "'x' must be numeric n x p matrix"
 msgstr "'x'는 반드시 크기가 n x p인 수치형 행렬이어야 합니다."
 
 #. R/silhouette.R: stop("'x' must only have integer codes")
@@ -369,11 +371,6 @@ msgstr ".C(cl_pam, *)으로부터 에러가 발생했습니다:  medID가 올바
 msgid "full silhouette is only available for results of 'clara(*, keep.data = TRUE)'"
 msgstr "full silhouette는 'clara(*, keep.data = TRUE)'의 결과만에 오로지 사용할 수 있습니다."
 
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
-#: R/pam.q:0
-msgid "have %d observations, but not more than %d are allowed"
-msgstr ""
-
 #. R/clusGapGen.R: stop("index has to be a function or a list of function")
 #: R/clusGapGen.R:0
 msgid "index has to be a function or a list of function"
@@ -536,6 +533,12 @@ msgstr[0] "%d개의 관측값들이 (%s) *오로지* NA만을 가집니다 --> �
 msgid "Observation %s has *only* NAs --> omit it for clustering"
 msgid_plural "Observations %s have *only* NAs --> omit them for clustering!"
 msgstr[0] "관측값 %s는 *오로지* NA만을 가집니다 --> 군집화를 위하여 이것들을 제거합니다!"
+
+#. R/pam.q: ngettext(n, "have %d observation, but not more than %d are allowed",     "have %d observations, but not more than %d are allowed")
+#: R/pam.q:0
+msgid "have %d observation, but not more than %d are allowed"
+msgid_plural "have %d observations, but not more than %d are allowed"
+msgstr[0] ""
 
 #. R/daisy.q: ngettext(sum(ilog), "setting 'logical' variable %s to type 'asymm'",     "setting 'logical' variables %s to type 'asymm'")
 #: R/daisy.q:0

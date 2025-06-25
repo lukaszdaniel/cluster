@@ -32,7 +32,8 @@ pam <- function(x, k, diss = inherits(x, "dist"),
 	## convert upper matrix, read by rows, to lower matrix, read by rows.
 	n <- attr(x, "Size")
 	if(n > nMax)
-	    stop(gettextf("have %d observations, but not more than %d are allowed",
+	    stop(sprintf(ngettext(n, "have %d observation, but not more than %d are allowed",
+			  "have %d observations, but not more than %d are allowed"),
 			  n, nMax))
 	dv <- x[lower.to.upper.tri.inds(n)]
 	## prepare arguments for the Fortran call
@@ -49,7 +50,8 @@ pam <- function(x, k, diss = inherits(x, "dist"),
 	x2 <- x ; dimnames(x2) <- NULL
 	n <- nrow(x2)
 	if(n > nMax)
-	    stop(gettextf("have %d observations, but not more than %d are allowed",
+	    stop(sprintf(ngettext(n, "have %d observation, but not more than %d are allowed",
+			  "have %d observations, but not more than %d are allowed"),
 			  n, nMax))
 	if(stand) x2 <- scale(x2, scale = apply(x2, 2, meanabsdev))
 	## put info about metric, size and NAs in arguments for the Fortran call

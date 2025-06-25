@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4.1.0 cluster 2.1.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-22 12:03\n"
 "PO-Revision-Date: 2021-05-04 15:37+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: R Core Team <r-core@r-project.org\n"
@@ -35,9 +35,10 @@ msgstr "%s muss aus 1:ncol(x) sein"
 msgid "%s must contain column names or numbers"
 msgstr "%s muss Spaltennamen oder Zahlen enthalten"
 
-#. R/ellipsoidhull.R: stop("'A' must be p x p  cov-matrix defining an ellipsoid")
+#. R/ellipsoidhull.R: stop("'A' must be p x p cov-matrix defining an ellipsoid")
 #: R/ellipsoidhull.R:0
-msgid "'A' must be p x p  cov-matrix defining an ellipsoid"
+#, fuzzy
+msgid "'A' must be p x p cov-matrix defining an ellipsoid"
 msgstr "'A' muss eine p x p Kovarianzmatrix sein, die einen Ellipsoid definiert"
 
 #. R/clusGap.R: stop("'B' has to be a positive integer")
@@ -149,9 +150,10 @@ msgstr "x ist weder numerischer Dataframe noch Matrix"
 msgid "'x' is not and cannot be converted to class \"dissimilarity\""
 msgstr "'x' ist nicht und kann auch nicht umgewandelt werden in Klasse \"dissimilarity\""
 
-#. R/ellipsoidhull.R: stop("'x' must be numeric  n x p matrix")
+#. R/ellipsoidhull.R: stop("'x' must be numeric n x p matrix")
 #: R/ellipsoidhull.R:0
-msgid "'x' must be numeric  n x p matrix"
+#, fuzzy
+msgid "'x' must be numeric n x p matrix"
 msgstr "'x' muss numerische n x p - Matrix sein"
 
 #. R/silhouette.R: stop("'x' must only have integer codes")
@@ -359,11 +361,6 @@ msgstr "Fehler aus .C(cl_pam, *): unzulässige medID's"
 msgid "full silhouette is only available for results of 'clara(*, keep.data = TRUE)'"
 msgstr "die volle Silhoutte ist nur verfügbar für Resultate von 'clara(*, keep.data=TRUE)'"
 
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
-#: R/pam.q:0
-msgid "have %d observations, but not more than %d are allowed"
-msgstr "habe %d Beobachtungen, aber mehr als %d nicht erlaubt"
-
 #. R/clusGapGen.R: stop("index has to be a function or a list of function")
 #: R/clusGapGen.R:0
 msgid "index has to be a function or a list of function"
@@ -527,12 +524,23 @@ msgid_plural "Observations %s have *only* NAs --> omit them for clustering!"
 msgstr[0] "Beobachtung %s hat *nur* NAs --> ausgelassen für Clustering"
 msgstr[1] "Beobachtungen %s haben *nur* NAs --> ausgelassen für Clustering"
 
+#. R/pam.q: ngettext(n, "have %d observation, but not more than %d are allowed",     "have %d observations, but not more than %d are allowed")
+#: R/pam.q:0
+#, fuzzy
+msgid "have %d observation, but not more than %d are allowed"
+msgid_plural "have %d observations, but not more than %d are allowed"
+msgstr[0] "habe %d Beobachtungen, aber mehr als %d nicht erlaubt"
+msgstr[1] "habe %d Beobachtungen, aber mehr als %d nicht erlaubt"
+
 #. R/daisy.q: ngettext(sum(ilog), "setting 'logical' variable %s to type 'asymm'",     "setting 'logical' variables %s to type 'asymm'")
 #: R/daisy.q:0
 msgid "setting 'logical' variable %s to type 'asymm'"
 msgid_plural "setting 'logical' variables %s to type 'asymm'"
 msgstr[0] "setze 'logical' Variable %s auf Typ 'asymm'"
 msgstr[1] "setze 'logical' Variablen %s auf Typ 'asymm'"
+
+#~ msgid "have %d observations, but not more than %d are allowed"
+#~ msgstr "habe %d Beobachtungen, aber mehr als %d nicht erlaubt"
 
 #~ msgid "NAdiss"
 #~ msgstr "NAdiss"

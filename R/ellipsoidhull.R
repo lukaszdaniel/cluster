@@ -11,7 +11,7 @@ ellipsoidhull <-
              ret.wt = FALSE, ret.sqdist = FALSE, ret.pr = FALSE)
 {
     if(!is.matrix(x) || !is.numeric(x))
-        stop("'x' must be numeric  n x p matrix")
+        stop("'x' must be numeric n x p matrix")
     if(anyNA(x)) {
         warning("omitting NAs")
         x <- na.omit(x)
@@ -107,7 +107,7 @@ volume.ellipsoid <- function(object, log=FALSE, ...) {
 ellipsoidPoints <- function(A, d2, loc, n.half = 201)
 {
     if(length(d <- dim(A)) != 2 || (p <- d[1]) != d[2])
-        stop("'A' must be p x p  cov-matrix defining an ellipsoid")
+        stop("'A' must be p x p cov-matrix defining an ellipsoid")
     if(p == 2) {
         detA <- A[1, 1] * A[2, 2] - A[1, 2]^2
         yl2 <- A[2, 2] * d2 # = (y_max - y_loc)^2

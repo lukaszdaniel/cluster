@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cluster 1.15.1\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
-"PO-Revision-Date: 2024-09-15 15:19+0200\n"
+"POT-Creation-Date: 2025-06-22 12:03\n"
+"PO-Revision-Date: 2025-06-22 12:04+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. R/daisy.q: gettextf("%s has constant columns %s; these are standardized to 0",     sQuote("x"), pColl(which(sx == 0)))
@@ -34,9 +34,9 @@ msgstr "%s musi być w przedziale 1:ncol(x)"
 msgid "%s must contain column names or numbers"
 msgstr "%s musi zawierać nazwy kolumn lub liczby"
 
-#. R/ellipsoidhull.R: stop("'A' must be p x p  cov-matrix defining an ellipsoid")
+#. R/ellipsoidhull.R: stop("'A' must be p x p cov-matrix defining an ellipsoid")
 #: R/ellipsoidhull.R:0
-msgid "'A' must be p x p  cov-matrix defining an ellipsoid"
+msgid "'A' must be p x p cov-matrix defining an ellipsoid"
 msgstr "'A' musi być macierzą kowariancji p x p określającą elipsoidę"
 
 #. R/clusGap.R: stop("'B' has to be a positive integer")
@@ -72,7 +72,7 @@ msgstr "argument 'full' musi mieć wartość FALSE, TRUE lub być liczbą z prze
 #. R/fanny.q: stop("'iniMem.p' must be a nonnegative n * k matrix with rowSums == 1")
 #: R/fanny.q:0
 msgid "'iniMem.p' must be a nonnegative n * k matrix with rowSums == 1"
-msgstr "'iniMem.p' musi być nieujemną maceirzą n x k z rowSums == 1"
+msgstr "'iniMem.p' musi być nieujemną macierzą n x k z rowSums == 1"
 
 #. R/fanny.q: stop("'k' (number of clusters) must be in {1,2, .., n/2 -1}")
 #: R/fanny.q:0
@@ -147,9 +147,9 @@ msgstr "argument 'x' nie jest liczbową ramką danych ani też macierzą."
 msgid "'x' is not and cannot be converted to class \"dissimilarity\""
 msgstr "argument 'x' nie jest i nie może być przekształcony na obiekt klasy \"dissimilarity\""
 
-#. R/ellipsoidhull.R: stop("'x' must be numeric  n x p matrix")
+#. R/ellipsoidhull.R: stop("'x' must be numeric n x p matrix")
 #: R/ellipsoidhull.R:0
-msgid "'x' must be numeric  n x p matrix"
+msgid "'x' must be numeric n x p matrix"
 msgstr "'x' musi być liczbową macierzą n x p"
 
 #. R/silhouette.R: stop("'x' must only have integer codes")
@@ -303,7 +303,7 @@ msgstr "Wektor grupujący posiada niepoprawną długość"
 #. R/clara.q: stop("The number of cluster should be at least 1 and at most n-1.")
 #: R/clara.q:0
 msgid "The number of cluster should be at least 1 and at most n-1."
-msgstr "Liczba grup powinna wynosić conajmniej 1 oraz co najwyżej n-1."
+msgstr "Liczba grup powinna wynosić co najmniej 1 oraz co najwyżej n-1."
 
 #. R/ellipsoidhull.R: gettextf("algorithm possibly not converged in %d iterations",     maxit)
 #: R/ellipsoidhull.R:0
@@ -359,11 +359,6 @@ msgstr "błąd w '.C(cl_pam, *)': niepoprawne 'medID'"
 #: R/silhouette.R:0
 msgid "full silhouette is only available for results of 'clara(*, keep.data = TRUE)'"
 msgstr "pełna sylwetka jest dostępna jedynie dla wyników 'clara(*, keep.data = TRUE)'"
-
-#. R/pam.q: gettextf("have %d observations, but not more than %d are allowed",     n, nMax)
-#: R/pam.q:0
-msgid "have %d observations, but not more than %d are allowed"
-msgstr "%d obserwacji, ale nie więcej niż %d jest dozwolone"
 
 #. R/clusGapGen.R: stop("index has to be a function or a list of function")
 #: R/clusGapGen.R:0
@@ -530,6 +525,14 @@ msgstr[0] "Obserwacja %s posiada *tylko* wartości NA --> pomijanie jej w grupow
 msgstr[1] "Obserwacje %s posiadają *tylko* wartości NA --> pomijanie ich w grupowaniu!"
 msgstr[2] "Obserwacje %s posiadają *tylko* wartości NA --> pomijanie ich w grupowaniu!"
 
+#. R/pam.q: ngettext(n, "have %d observation, but not more than %d are allowed",     "have %d observations, but not more than %d are allowed")
+#: R/pam.q:0
+msgid "have %d observation, but not more than %d are allowed"
+msgid_plural "have %d observations, but not more than %d are allowed"
+msgstr[0] "%d obserwacja, ale nie więcej niż %d jest dozwolone"
+msgstr[1] "%d obserwacje, ale nie więcej niż %d jest dozwolone"
+msgstr[2] "%d obserwacji, ale nie więcej niż %d jest dozwolone"
+
 #. R/daisy.q: ngettext(sum(ilog), "setting 'logical' variable %s to type 'asymm'",     "setting 'logical' variables %s to type 'asymm'")
 #: R/daisy.q:0
 msgid "setting 'logical' variable %s to type 'asymm'"
@@ -537,6 +540,9 @@ msgid_plural "setting 'logical' variables %s to type 'asymm'"
 msgstr[0] "ustawianie zmiennej 'logical' %s na tym 'asymm'"
 msgstr[1] "ustawianie zmiennych 'logical' %s na tym 'asymm'"
 msgstr[2] "ustawianie zmiennych 'logical' %s na tym 'asymm'"
+
+#~ msgid "have %d observations, but not more than %d are allowed"
+#~ msgstr "%d obserwacji, ale nie więcej niż %d jest dozwolone"
 
 #~ msgid "NAdiss"
 #~ msgstr "NAdiss"
