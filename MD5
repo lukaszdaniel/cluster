@@ -1,5 +1,5 @@
 0a1fb45a19b929335c79d7a52ad8a571 *inst/test-tools.R
-d857622d66be623e60552938a238690e *inst/po/pl/LC_MESSAGES/R-cluster.mo
+25e8d723a162851af6d26b1fb15ba6f2 *inst/po/pl/LC_MESSAGES/R-cluster.mo
 0ee8b10d0d2ad51c28c93534dbffbb53 *inst/po/pl/LC_MESSAGES/cluster.mo
 97043d877b4283d8fbf14533c5e48a96 *inst/po/ko/LC_MESSAGES/R-cluster.mo
 6306a78d6648b92099caac5c760c2d56 *inst/po/ko/LC_MESSAGES/cluster.mo
@@ -116,7 +116,7 @@ b0a44d44e3394a7032e56178eab47bbf *tests/mona.R
 e9b5293e63746638be1f3570dbeb4fe3 *po/R-en@quot.po
 dcb548bf5c9769b527d2cc4bb0afb08a *po/de.po
 5af47c6789e1ae71eebe95c9004a378b *po/R-cluster.pot
-0773c3990d1ed0cb2b196720935627e6 *po/R-pl.po
+8c22688fa22156402ab003a3575f223b *po/R-pl.po
 7ff3173794cd966a44fe9967f0709785 *po/R-de.po
 52586f1ffe399163ac9930fd05b66ecf *po/ko.po
 69f08ae6f2c7099589856b33fa25af84 *po/lt.po
