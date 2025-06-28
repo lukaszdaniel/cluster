@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cluster 2.1.1\n"
-"POT-Creation-Date: 2025-06-22 12:03\n"
+"POT-Creation-Date: 2025-06-28 11:27\n"
 "PO-Revision-Date: 2021-05-05 10:17+0200\n"
 "Last-Translator: Gabrielė Stupurienė <gabriele.stupuriene@mif.vu.lt>\n"
 "Language-Team: none\n"
@@ -426,9 +426,10 @@ msgstr "mona() reikia bent p > = 2 kintamųjų (dabartiniame įgyvendinime)"
 msgid "need at least 2 objects to cluster"
 msgstr "reikia bent 2 objektų į klasterį"
 
-#. R/plotpart.q: stop("no diss nor data found for clusplot()'")
+#. R/plotpart.q: stop("no diss nor data found for 'clusplot()'")
 #: R/plotpart.q:0
-msgid "no diss nor data found for clusplot()'"
+#, fuzzy
+msgid "no diss nor data found for 'clusplot()'"
 msgstr "nerasta jokių diss ir clusplot()' duomenų"
 
 #. R/plotpart.q: gettextf("no diss nor data found, nor the original argument of %s",     deparse1(x$call))
@@ -480,6 +481,11 @@ msgstr "kai 'medoids.x' yra FALSE, 'keep.data' turi būti taip pat"
 #: R/daisy.q:0
 msgid "with mixed variables, metric \"gower\" is used automatically"
 msgstr "su mišriais kintamaisiais, metrika \"gower\" naudojama automatiškai"
+
+#. R/diana.q: stop("x has zero columns")
+#: R/diana.q:0
+msgid "x has zero columns"
+msgstr ""
 
 #. R/plotpart.q: stop("x is not a data matrix")
 #: R/plotpart.q:0

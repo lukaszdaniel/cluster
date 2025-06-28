@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-cluster 2.0.8\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-22 12:03\n"
+"POT-Creation-Date: 2025-06-28 11:27\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -432,9 +432,10 @@ msgstr "mona() richiede almeno p >= 2 variabili (nell'attuale implementazione)"
 msgid "need at least 2 objects to cluster"
 msgstr "richiede almeno 2 oggetti per l'analisi cluster"
 
-#. R/plotpart.q: stop("no diss nor data found for clusplot()'")
+#. R/plotpart.q: stop("no diss nor data found for 'clusplot()'")
 #: R/plotpart.q:0
-msgid "no diss nor data found for clusplot()'"
+#, fuzzy
+msgid "no diss nor data found for 'clusplot()'"
 msgstr "nessun diss o dato trovato per clusplot()'"
 
 #. R/plotpart.q: gettextf("no diss nor data found, nor the original argument of %s",     deparse1(x$call))
@@ -486,6 +487,11 @@ msgstr "quando 'medoids.x' è FALSE, lo dev'essere anche 'keep.data'"
 #: R/daisy.q:0
 msgid "with mixed variables, metric \"gower\" is used automatically"
 msgstr "con variabili miste, la metrica \"gower\" è utilizzata in maniera automatica"
+
+#. R/diana.q: stop("x has zero columns")
+#: R/diana.q:0
+msgid "x has zero columns"
+msgstr ""
 
 #. R/plotpart.q: stop("x is not a data matrix")
 #: R/plotpart.q:0

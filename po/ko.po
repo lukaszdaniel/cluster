@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cluster 1.15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 15:11+0200\n"
+"POT-Creation-Date: 2025-06-28 11:27+0200\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -22,17 +22,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: clara.c:101
+#: clara.c:106
 #, c-format
 msgid "C level clara(): random k=%d > n **\n"
 msgstr "C level clara(): random k=%d > n **\n"
 
-#: clara.c:316
+#: clara.c:321
 #, fuzzy, c-format
 msgid "clara()'s C level dysta2(nsam=%d, p=%d, n=%d) gave 'toomany_NA'"
 msgstr "clara()'s C level dysta2(nsam=%d, p=%d, nbest=%d, n=%d) gave 'toomany_NA'"
 
-#: clara.c:357 clara.c:362
+#: clara.c:362 clara.c:367
 #, c-format
 msgid "C level dysta2(): nsel[%s= %d] = %d is outside 0..n, n=%d"
 msgstr "C level dysta2(): nsel[%s= %d] = %d is outside 0..n, n=%d"
@@ -41,17 +41,17 @@ msgstr "C level dysta2(): nsel[%s= %d] = %d is outside 0..n, n=%d"
 msgid "Invalid 'medoids'"
 msgstr ""
 
-#: pam.c:928
+#: pam.c:927
 #, c-format
 msgid "pam(): Bug in C level cstat(), k=%d: ntt=0"
 msgstr "pam(): Bug in C level cstat(), k=%d: ntt=0"
 
-#: twins.c:154
+#: twins.c:152
 #, c-format
 msgid "agnes(method=%d, par.method=*) lead to invalid merge; step %d, D(.,.)=%g"
 msgstr ""
 
-#: twins.c:261
+#: twins.c:259
 #, c-format
 msgid "invalid method (code %d)"
 msgstr "메소드가 올바르지 않습니다 (code %d)."

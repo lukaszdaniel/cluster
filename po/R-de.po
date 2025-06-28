@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4.1.0 cluster 2.1.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-22 12:03\n"
+"POT-Creation-Date: 2025-06-28 11:27\n"
 "PO-Revision-Date: 2021-05-04 15:37+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: R Core Team <r-core@r-project.org\n"
@@ -426,9 +426,10 @@ msgstr "mona() (in der aktuellen Implementierung) benötigt mindestens p >= 2 Va
 msgid "need at least 2 objects to cluster"
 msgstr "benötige zum Clustern mindestens 2 Objekte"
 
-#. R/plotpart.q: stop("no diss nor data found for clusplot()'")
+#. R/plotpart.q: stop("no diss nor data found for 'clusplot()'")
 #: R/plotpart.q:0
-msgid "no diss nor data found for clusplot()'"
+#, fuzzy
+msgid "no diss nor data found for 'clusplot()'"
 msgstr "weder diss noch data für 'clusplot()' gefunden"
 
 #. R/plotpart.q: gettextf("no diss nor data found, nor the original argument of %s",     deparse1(x$call))
@@ -480,6 +481,12 @@ msgstr "wenn 'medoids.x' FALSE ist, dann muss es auch 'keep.data' sein"
 #: R/daisy.q:0
 msgid "with mixed variables, metric \"gower\" is used automatically"
 msgstr "mit gemischten Variablen wird automatisch \"gower\" genutzt"
+
+#. R/diana.q: stop("x has zero columns")
+#: R/diana.q:0
+#, fuzzy
+msgid "x has zero columns"
+msgstr "hat konstante Spalten"
 
 #. R/plotpart.q: stop("x is not a data matrix")
 #: R/plotpart.q:0
@@ -576,9 +583,6 @@ msgstr[1] "setze 'logical' Variablen %s auf Typ 'asymm'"
 
 #~ msgid "x"
 #~ msgstr "x"
-
-#~ msgid "has constant columns"
-#~ msgstr "hat konstante Spalten"
 
 #~ msgid "possibly not converged in"
 #~ msgstr "evtl nicht konvergiert in "

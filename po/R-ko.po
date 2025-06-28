@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cluster 1.15.2\n"
-"POT-Creation-Date: 2025-06-22 12:03\n"
+"POT-Creation-Date: 2025-06-28 11:27\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -438,9 +438,10 @@ msgstr ""
 msgid "need at least 2 objects to cluster"
 msgstr "군집(cluster)는 적어도 2개의 객체를 필요로 합니다."
 
-#. R/plotpart.q: stop("no diss nor data found for clusplot()'")
+#. R/plotpart.q: stop("no diss nor data found for 'clusplot()'")
 #: R/plotpart.q:0
-msgid "no diss nor data found for clusplot()'"
+#, fuzzy
+msgid "no diss nor data found for 'clusplot()'"
 msgstr "clusplot()에 사용될 diss와 data 모두 찾을 수 없습니다."
 
 #. R/plotpart.q: gettextf("no diss nor data found, nor the original argument of %s",     deparse1(x$call))
@@ -492,6 +493,11 @@ msgstr "'medoids.x'가 FALSE인 경우에는 'keep.data' 역시 FALSE이어야 �
 #: R/daisy.q:0
 msgid "with mixed variables, metric \"gower\" is used automatically"
 msgstr "혼합형 변수(mixed variables)를 이용할 때는 metric은 자동으로 \"gower\"가 사용됩니다."
+
+#. R/diana.q: stop("x has zero columns")
+#: R/diana.q:0
+msgid "x has zero columns"
+msgstr ""
 
 #. R/plotpart.q: stop("x is not a data matrix")
 #: R/plotpart.q:0
