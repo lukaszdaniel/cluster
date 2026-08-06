@@ -11,7 +11,7 @@ a1171c691cb59eac9a05e50fb41ac1f4 *src/sildist.c
 c543bbe9611c5ea9a79cb00ce772a5bf *src/cluster.h
 7cb95ac5e410f3ce834bbf4d56f6d174 *src/mona.c
 921701aaabc3da76cc2dd4d9ad50d8a1 *src/fanny.c
-d099472a921b18b90eac98e769d07a90 *build/partial.rdb
+13065aeaaa13c85464ff9903666dbd06 *build/partial.rdb
 84b2723e904c2b1897a00043106b458e *man/pluton.Rd
 d7edca4aea0edca6e7139092e85e67db *man/predict.ellipsoid.Rd
 8beea8b2090f7e91d0a0b69ec2013718 *man/sizeDiss.Rd
@@ -67,7 +67,7 @@ a2e45d8b373be70e45c9d49c1779672e *man/plot.agnes.Rd
 5cc8d9a8fa53b437121d841475d46b46 *man/summary.pam.Rd
 7db03338761019b70d064ffe1eddcc5d *man/agriculture.Rd
 2608df4d8982fd4507474f11d3ff532e *NAMESPACE
-b2081001bd858fb5843a185ec8619bf7 *DESCRIPTION
+bff5da85457803efaae23ee364e2a78e *DESCRIPTION
 35176f2601b3bb53e380af1484cd8fd8 *R/0aaa.R
 4a741f9c34a274c7225f632831163150 *R/diana.q
 4b26b60ba9fa843ec62c7164c52f5d97 *R/mona.q
@@ -76,7 +76,7 @@ c2b2ec71b0b89e5b3e359f28f414edaa *R/daisy.q
 00d309435c3130510e56a60873af4112 *R/ellipsoidhull.R
 7b627a908de775e7bfa9f179d58093c4 *R/clara.q
 bed5408efbdb993cc54ce6f895319081 *R/clusGap.R
-e88c7b1e360e859e86aff3f8600d1866 *R/pam.q
+85a88eca935c1da79f40208c9270c771 *R/pam.q
 86a134c01b58fae094b8b064c4af3d60 *R/fanny.q
 d463b191ae7a1d1e4681fd14cd8e4f75 *R/silhouette.R
 c34b277489cb1ee06bc551c8af1f46e8 *R/plotpart.q
@@ -86,7 +86,7 @@ dd4bfe2b3eb91cbcf11d2b17719d6977 *R/plothier.q
 9359fc46e0f395db60348a454f306f1e *R/agnes.q
 e93355a6f7ad8d8486e6db4db52200a9 *R/coef.R
 df15a742d85b586d51bd4b031cb08cb6 *R/internal.R
-4ead02622ddfada4fc1e558812e79c88 *inst/NEWS.Rd
+afdf158e74278ea2b501c26b7c2c9a13 *inst/NEWS.Rd
 0a1fb45a19b929335c79d7a52ad8a571 *inst/test-tools.R
 d75b23d429b5b841fa4d323e3958dcec *inst/po/it/LC_MESSAGES/cluster.mo
 c8f876cddb1081f93bcae3b815c2ebc5 *inst/po/it/LC_MESSAGES/R-cluster.mo
@@ -98,8 +98,8 @@ c09b99d3fbd5f41016e28b14e2475ebc *inst/po/de/LC_MESSAGES/R-cluster.mo
 544c4103b93c14746e8a2f689722b9a7 *inst/po/lt/LC_MESSAGES/R-cluster.mo
 1ea22dcb75bf1b5966f46e3fbebb3471 *inst/po/fr/LC_MESSAGES/cluster.mo
 3338f1d373b8e995a550f6d79d51c0df *inst/po/fr/LC_MESSAGES/R-cluster.mo
-a3600c2c4dce327208187be53c94a9e4 *inst/po/en@quot/LC_MESSAGES/cluster.mo
-f24aadaf562c00ed41db4bf068f75674 *inst/po/en@quot/LC_MESSAGES/R-cluster.mo
+482133058015071548c7181295e6ac0d *inst/po/en@quot/LC_MESSAGES/cluster.mo
+af503502105174154cf302d7dc4e3238 *inst/po/en@quot/LC_MESSAGES/R-cluster.mo
 0ee8b10d0d2ad51c28c93534dbffbb53 *inst/po/pl/LC_MESSAGES/cluster.mo
 0081c91dfacd5c058d0d00a83167a768 *inst/po/pl/LC_MESSAGES/R-cluster.mo
 8ea8fc7e56eda28f71352a336a430c41 *inst/CITATION
@@ -150,13 +150,13 @@ ffaf2625790399c6064cd5c3cc6634d3 *po/R-lt.po
 c3bab619de900d58afbdfa24e02a9ce3 *po/lt.po
 62c8afea2dc89e508978314bccb2c6b3 *po/R-fr.po
 aed2f0776adfc4281403542c1f9c6a2c *po/it.po
-57f3d51bc680bc14ad1e894bc4db1e5a *po/R-cluster.pot
+9681e5dac7358716d6e44e9ed5602c15 *po/R-cluster.pot
 47fc83d7ae4a724ed35afabdf8dcfc83 *po/R-it.po
 9ff0cde55454c8c7d6f49a3f68c1bf37 *po/R-pl.po
 601bc33c0b323deb34e589b0895c80dd *po/de.po
 9e4623acd98f88ca88bb7f75a49adff1 *po/ko.po
 60f183f1190d97f11c5c2baaab443647 *po/fr.po
 f0e6eff96b52c258c95a83a46f15a0e1 *po/update-me.sh
-ef8b454209028d1eb67cf1ec7f9b94d6 *po/cluster.pot
+2a187d4b0ed3d6f34d36583e7d72a3e3 *po/cluster.pot
 0d5b196c8cf0ac67c43144fa14ddf275 *README
 df8beedd08558bbbd5016bada48b1e80 *.gitignore
